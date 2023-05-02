@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link to="/home">home</router-link>
+    <router-link to="/home" class="box">home</router-link>
     
   </div>
   <router-view></router-view>
@@ -9,8 +9,8 @@
 <script setup>
 </script>
 
-<style>
-#app {
-
+<style lang="scss">
+.box{
+  text-decoration: none;
 }
 </style>
